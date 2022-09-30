@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  shutdown: graceful
+
+redis:
+  channel:
+    topic:
+      qna: qna
+
+spring:
+  lifecycle:
+    timeout-per-shutdown-phase: 10s
